@@ -1,0 +1,230 @@
+.ant-table-content {
+  overflow-x: auto;
+  overflow-y: hidden;
+
+  .ant-table-cell {
+    white-space: nowrap;
+    font-size: 12px;
+    text-align: center !important;
+  }
+}
+
+//.red20,
+//.ant-table-wrapper .red20 .ant-table-cell-fix-left,
+//.ant-table-wrapper .red20 .ant-table-cell-fix-right {
+//  background-color: #fff6ec;
+//
+//}
+
+.ant-collapse-header {
+  align-items: center !important;
+}
+
+.ant-table-row:hover {
+  cursor: pointer;
+}
+
+.changePlaceTimeDate .ant-picker-datetime-panel {
+  flex-direction: row-reverse;
+}
+
+.changePlaceTimeDate .ant-picker-time-panel .ant-picker-content {
+  flex-direction: row-reverse;
+}
+
+.defTable .ant-table-cell {
+  padding: 3px;
+}
+
+.ant-table table {
+  border-spacing: 0 7px;
+}
+
+.ant-table-cell-with-append {
+  text-align: right !important;
+
+}
+
+.ant-table-wrapper .ant-table {
+  background-color: $body-bg !important;
+}
+
+.ant-table-wrapper.reverseBgColor .ant-table {
+  background-color: white !important;
+}
+.ant-table-wrapper.reverseBgColor .ant-table .ant-table-cell {
+  background-color: #f5f5f5 !important;
+}
+
+.ant-table-row, .ant-table-thead {
+  //background-color: white !important;
+  //box-shadow: 0 0  3px 0 rgba(0, 0, 0, 0.07) ;
+  border-radius: 20px !important;
+
+  .ant-table-cell {
+    border-top: 1px solid $gray-300 !important;
+    border-bottom: 1px solid $gray-300 !important;
+    background-color: white !important;
+
+
+    &:first-child {
+      overflow: hidden;
+      border-right: 1px solid $gray-300;
+      border-radius: 0 10px 10px 0 !important;
+    }
+
+    &:last-child {
+      overflow: hidden;
+      border-left: 1px solid $gray-300;
+      border-radius: 6px 0 0 6px !important;
+    }
+
+  }
+}
+
+.ant-table-thead {
+  height: 50px !important;
+
+}
+
+
+.h32 .ant-select-selector {
+
+  height: 32px !important;
+}
+
+.w120 .ant-select-selector {
+  width: 120px !important;
+}
+
+.ant-dropdown-menu-item {
+  padding: 0 5px !important;
+}
+
+.hiddenArrow .ant-dropdown-menu-submenu-arrow {
+  display: none;
+}
+
+.ant-dropdown .anticon.anticon-right.ant-collapse-arrow {
+  -webkit-transform: scaleX(1) !important;
+  transform: scaleX(1) !important;
+}
+
+.text-center * {
+  text-align: center !important;
+}
+
+.ltr * {
+  direction: ltr !important;
+}
+
+
+.ant-tabs-nav:before {
+  content: none !important;
+}
+
+.ant-modal-mask{
+  background-color: rgba(0,0,0,0.75) !important;
+}
+.ant-modal-content{
+  box-shadow: none !important;
+}
+
+.ant-modal .ant-modal-header {
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 10px;
+}
+
+.ant-modal-footer{
+  text-align: center !important;
+}
+
+.ck-editor__editable_inline {
+  min-height: 150px;
+}
+
+.ant-spin.ant-spin-spinning {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.defWords .ant-tag:hover {
+  background-color: #d2d2d2 !important;
+}
+
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* For Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.customDrawer .ant-drawer-header-title {
+  flex-direction: row-reverse;
+}
+
+.customDrawer .ant-drawer-header-title .ant-drawer-close {
+  margin-left: 0 !important;
+}
+
+.hiddenFormItem .ant-form-item-control-input {
+  display: none;
+}
+
+
+.ant-table-row-indent.indent-level-0 {
+  padding: 0 !important;
+  border: none !important;
+}
+
+.ant-table-cell-with-append > .ant-table-row-indent {
+
+  float: left;
+  margin-top: -5px;
+  padding: 7px 15px;
+  border: 2px solid #d2d2d2;
+  border-top: none;
+  border-left: none;
+  margin-right: 10px;
+}
+
+.ant-table-cell .ant-table-row-indent:not(.indent-level-0) + .ant-table-row-expand-icon.ant-table-row-expand-icon-spaced {
+  height: 2px;
+  background: #d2d2d2;
+  opacity: 1;
+  border: none;
+  margin-top: 9px !important;
+  margin-right: -1px;
+  margin-left: 0;
+  visibility: visible !important;
+  margin-inline-end: 8px;
+}
+
+
+.ant-table-row.ant-table-row-level-1 td,
+.ant-table-row.ant-table-row-level-2 td,
+.ant-table-row.ant-table-row-level-3 td,
+.ant-table-row.ant-table-row-level-4 td,
+.ant-table-row.ant-table-row-level-5 td,
+.ant-table-row.ant-table-row-level-6 td,
+.ant-table-row.ant-table-row-level-7 td,
+.ant-table-row.ant-table-row-level-8 td,
+.ant-table-row.ant-table-row-level-9 td,
+{
+  background-color: #ececec !important;
+}
+
+.ant-table-cell.ant-table-cell-with-append {
+
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  height: 100%;
+
+}

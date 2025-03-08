@@ -1,0 +1,99 @@
+.fixedTopbar {
+  position: fixed;
+  width: calc(100% - 260px);
+  top: 0;
+  left: 0;
+  z-index: 99;
+  //box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  background-color: $body-bg !important;
+  padding: 0 15px;
+  height: 70px;
+  transition: all 0.3s ease;
+  //box-shadow: 0 0 5px #727272;
+
+
+  .HorizontalTopbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+  }
+
+}
+
+.showSidebar .fixedTopbar {
+  width: 100%;
+}
+
+.contentArea {
+  padding: calc($topbarHeight + 20px) 15px 15px;
+  width: calc(100% - 260px);
+  transition: all 0.3s ease;
+
+
+}
+
+.showSidebar .contentArea {
+  width: 100%;
+}
+
+.ddWidth {
+  width: 300px;
+}
+
+.mega-dropdown {
+  position: static;
+
+  .dropdown-menu {
+    padding: 30px;
+    width: 96%;
+    left: -2% !important;
+    max-height: 480px;
+    top: 11px !important;
+    overflow: auto;
+  }
+}
+
+@media (max-width: 992px) {
+  .contentArea {
+    width: 100%;
+
+  }
+
+
+  .fixedTopbar {
+    width: 100%
+  }
+
+
+}
+
+
+//@include media-breakpoint-up(lg) {
+//
+//  .fixedTopbar {
+//    width:  100%
+//  }
+//  .logo-space {
+//    min-width: 245px;
+//    padding-right: 10px;
+//  }
+//  .isMiniSidebar .logo-space {
+//    min-width: 60px;
+//  }
+//
+//
+//}
+//
+//@include media-breakpoint-down(lg) {
+//  .contentArea {
+//
+//    width: calc(100% - 0.5rem);
+//
+//
+//  }
+//  .ddWidth {
+//    width: 100vw;
+//    max-width: 250px;
+//  }
+//}

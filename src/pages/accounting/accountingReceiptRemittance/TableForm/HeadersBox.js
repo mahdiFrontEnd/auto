@@ -1,0 +1,21 @@
+import React from 'react';
+
+const HeadersBox = () => {
+  return (
+    <div
+      className="fw-bold fs-7 py-3 px-2 gap-2 text-black d-flex align-items-center rounded-2 border mb-2 "
+      style={{ backgroundColor: '#fafafa' }}>
+      <div className="flex-1 text-center">کالا</div>
+      <div className="flex-1 text-center">مقدار</div>
+      <div className="flex-1 text-center">انبار</div>
+      <div className="flex-1 text-center">قیمت (ریال)</div>
+      <div className="flex-1 text-center">واحد پول قیمت دوم</div>
+      <div className="flex-1 text-center">قیمت دوم</div>
+      <div className="flex-1 text-center">تامین کننده </div>
+
+
+    </div>
+  );
+};
+
+export default HeadersBox;
